@@ -1,0 +1,21 @@
+.CarregarArquivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centraliza vertical e horizontalmente */
+  min-height: 100vh;
+  margin: 0; /* Remove a margem anteriormente definida */
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

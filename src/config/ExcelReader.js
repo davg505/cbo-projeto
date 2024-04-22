@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import * as XLSX from 'xlsx';
+import { useNavigate } from 'react-router-dom';
 
-function ExcelReader() {
+function ExcelReader({ onFileProcessed }) {
   const [jsonData, setJsonData] = useState(null);
+  const navigate = useNavigate();
 
   const handleFileUpload = (e) => {
     const file = e.target.files[0];
@@ -19,13 +21,16 @@ function ExcelReader() {
   };
 
   const processFile = () => {
-    // Processar o arquivo aqui, se necessário
-    console.log('Arquivo processado:', jsonData);
+    console.log('JSON carregado:', jsonData);
+    onFileProcessed(jsonData);
+    console.log('Chamando onFileProcessed');
+    navigate('/pesquisa-tabela');
+    console.log('Navegando para /pesquisa-tabela');
   };
 
   return (
     <div>
-      <h2>Upload Excel File</h2>
+      <h2>Adicionar arquivo</h2>
       <input type="file" onChange={handleFileUpload} />
       {jsonData && (
         <div>

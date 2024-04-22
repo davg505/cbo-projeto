@@ -1,0 +1,11 @@
+
+.PesquisaTabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Ajusta o alinhamento vertical para o topo */
+  min-height: 100vh;
+  margin: 20px 0 0; /* Adiciona uma margem de 20px no topo */
+  padding: 0;
+  text-align: center;
+}
