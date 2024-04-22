@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cbo-projeto/static/css/main.1d839158.css",
+    "main.js": "/cbo-projeto/static/js/main.28db1fe4.js",
+    "static/js/453.14c58030.chunk.js": "/cbo-projeto/static/js/453.14c58030.chunk.js",
+    "index.html": "/cbo-projeto/index.html",
+    "main.1d839158.css.map": "/cbo-projeto/static/css/main.1d839158.css.map",
+    "main.28db1fe4.js.map": "/cbo-projeto/static/js/main.28db1fe4.js.map",
+    "453.14c58030.chunk.js.map": "/cbo-projeto/static/js/453.14c58030.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d839158.css",
+    "static/js/main.28db1fe4.js"
+  ]
+}
